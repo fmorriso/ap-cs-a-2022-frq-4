@@ -13,7 +13,7 @@ public class Driver
 		System.out.println("\nPart A:");
 		Data d = new Data(3, 3);
 		d.repopulate();
-		System.out.println("Grid:\n" + d);
+		System.out.print("Grid:\n" + d);
 	}
 
 	private static void PartB()
