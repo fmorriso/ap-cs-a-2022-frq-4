@@ -1,8 +1,13 @@
+/**
+ * 
+ * @author Fred Morrison
+ *
+ */
 import java.util.Arrays;
 
 public class Data
 {
-	public static final int MAX = 2000;
+	public static final int MAX = 1000;
 	private int[][] grid;
 
 	@SuppressWarnings("unused")
