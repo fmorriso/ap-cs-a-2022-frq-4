@@ -5,14 +5,24 @@ public class Driver
 	{
 		verifyRandomValueGenerator();
 		PartA();
+		PartB();
+	}
+
+	private static void PartB()
+	{
+		Data d = new Data(2, 3);
+		d.repopulate();
+		System.out.println("Grid:\n" + d);
+		int n = d.countIncreasingCols();
+		System.out.println("\nNumber of increasing columns = " + n);
 		
 	}
 
 	private static void PartA()
 	{
-		Data d = new Data(2, 3);
+		Data d = new Data(3, 3);
 		d.repopulate();
-		System.out.println(d);
+		System.out.println("Grid:\n" + d);
 		
 	}
 
@@ -26,8 +36,7 @@ public class Driver
 		{
 			System.out.println(d.getUsableRandomValue());
 			
-		}
-		
+		}		
 	}
 
 }

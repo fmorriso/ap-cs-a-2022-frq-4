@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Data
 {
-	public static final int MAX = 1000;
+	public static final int MAX = 4000;
 	private int[][] grid;	
 	
 	@SuppressWarnings("unused")
@@ -42,7 +42,7 @@ public class Data
 	@Override
 	public String toString()
 	{
-		String retval = "grid: ";
+		String retval = "";
 		
 		 for (int[] row : grid)
 		{
@@ -50,5 +50,11 @@ public class Data
 		}
 		 
 		return retval;
+	}
+
+	public int countIncreasingCols()
+	{
+		int n = 0;
+		return n;
 	}
 }
