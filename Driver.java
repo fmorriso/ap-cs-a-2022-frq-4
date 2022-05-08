@@ -4,7 +4,7 @@ public class Driver
 
 	public static void main(String[] args)
 	{
-		Data d = new Data();
+		Data d = new Data(3, 2);
 
 	}
 
